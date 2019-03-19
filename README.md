@@ -1,15 +1,15 @@
 # RUG_eduroam
-University of Groningen eduroam sample config file
+Rijksuniversiteit Groningen / University of Groningen eduroam sample config file
 
 This config file can help you in configuring eduroam manually on Linux, for example on Arch linux distributions. 
 
 ## Setup using netctl
 
-1. Change the values preceeded with an '$' to match your personal information.
-2. Download the file to the /etc/netctl/ directory:
+1. Change the values preceded by an '$' to match your personal information.
+2. Download the file to directory /etc/netctl/
 ```sh
 $ cd /etc/netctl
-$ wget https://raw.githubusercontent.com/Maurits18/RUG_eduroam/master/wlp2s0-eduroam
+$ wget https://raw.githubusercontent.com/Maurits2014/RUG_eduroam/master/wlp2s0-eduroam
 ```
 3. Turn off your wifi adapter:
 ```sh
@@ -24,7 +24,7 @@ $ wget https://raw.githubusercontent.com/Maurits18/RUG_eduroam/master/wlp2s0-edu
 # netctl start wlp2s0-eduroam
 ```
 
-## Troubleshooting
+## Troubleshooting ideas
 Check netctl status:
 ```sh
 # netctl status wlp2s0-eduroam
