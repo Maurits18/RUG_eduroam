@@ -1,0 +1,16 @@
+Description='rug_eduroam'
+Interface='$wlp2s0'
+Connection='wireless'
+IP='dhcp'
+ESSID='eduroam'
+Security='wpa-configsection'
+WPAConfigSection=(
+	'ssid="eduroam"'
+	'key_mgmt=WPA-EAP'
+	'eap=PEAP'
+	'proto=RSN'
+	'identity="$s_number@rug.nl"'
+	'anonymous_identity="anonymous@rug.nl"'
+	'password="$password"'
+	'phase2="auth=MSCHAPV2"'
+)
