@@ -3,7 +3,7 @@ University of Groningen eduroam config file
 
 This config file can help you in configuring eduroam manually on Linux, for example on Arch linux distributions. 
 
-##Setup using netctl
+## Setup using netctl
 
 1. Change the values preceeded with an '$' to match your personal information.
 2. Copy the file to the /etc/netctl/ directory.
